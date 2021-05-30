@@ -1,0 +1,36 @@
+C:\Users\Code Academy\Desktop\c# final project\FinalProject\FinalProject\obj\Debug\net5.0\FinalProject.csprojAssemblyReference.cache
+C:\Users\Code Academy\Desktop\c# final project\FinalProject\FinalProject\obj\Debug\net5.0\FinalProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Code Academy\Desktop\c# final project\FinalProject\FinalProject\obj\Debug\net5.0\FinalProject.AssemblyInfoInputs.cache
+C:\Users\Code Academy\Desktop\c# final project\FinalProject\FinalProject\obj\Debug\net5.0\FinalProject.AssemblyInfo.cs
+C:\Users\Code Academy\Desktop\c# final project\FinalProject\FinalProject\obj\Debug\net5.0\FinalProject.csproj.CoreCompileInputs.cache
+C:\Users\Code Academy\Desktop\c# final project\FinalProject\FinalProject\bin\Debug\net5.0\FinalProject.exe
+C:\Users\Code Academy\Desktop\c# final project\FinalProject\FinalProject\bin\Debug\net5.0\FinalProject.deps.json
+C:\Users\Code Academy\Desktop\c# final project\FinalProject\FinalProject\bin\Debug\net5.0\FinalProject.runtimeconfig.json
+C:\Users\Code Academy\Desktop\c# final project\FinalProject\FinalProject\bin\Debug\net5.0\FinalProject.runtimeconfig.dev.json
+C:\Users\Code Academy\Desktop\c# final project\FinalProject\FinalProject\bin\Debug\net5.0\FinalProject.dll
+C:\Users\Code Academy\Desktop\c# final project\FinalProject\FinalProject\bin\Debug\net5.0\ref\FinalProject.dll
+C:\Users\Code Academy\Desktop\c# final project\FinalProject\FinalProject\bin\Debug\net5.0\FinalProject.pdb
+C:\Users\Code Academy\Desktop\c# final project\FinalProject\FinalProject\obj\Debug\net5.0\FinalProject.dll
+C:\Users\Code Academy\Desktop\c# final project\FinalProject\FinalProject\obj\Debug\net5.0\ref\FinalProject.dll
+C:\Users\Code Academy\Desktop\c# final project\FinalProject\FinalProject\obj\Debug\net5.0\FinalProject.pdb
+C:\Users\Code Academy\Desktop\c# final project\FinalProject\FinalProject\obj\Debug\net5.0\FinalProject.genruntimeconfig.cache
+C:\Users\Code Academy\Desktop\c# final project\FinalProject\FinalProject\bin\Debug\net5.0\ConsoleTables.dll
+C:\Users\Code Academy\Desktop\c# final project\FinalProject\FinalProject\obj\Debug\net5.0\FinalProject.csproj.CopyComplete
+C:\Users\Code Academy\Desktop\Final_Project\FinalProject\bin\Debug\net5.0\FinalProject.exe
+C:\Users\Code Academy\Desktop\Final_Project\FinalProject\bin\Debug\net5.0\FinalProject.deps.json
+C:\Users\Code Academy\Desktop\Final_Project\FinalProject\bin\Debug\net5.0\FinalProject.runtimeconfig.json
+C:\Users\Code Academy\Desktop\Final_Project\FinalProject\bin\Debug\net5.0\FinalProject.runtimeconfig.dev.json
+C:\Users\Code Academy\Desktop\Final_Project\FinalProject\bin\Debug\net5.0\FinalProject.dll
+C:\Users\Code Academy\Desktop\Final_Project\FinalProject\bin\Debug\net5.0\ref\FinalProject.dll
+C:\Users\Code Academy\Desktop\Final_Project\FinalProject\bin\Debug\net5.0\FinalProject.pdb
+C:\Users\Code Academy\Desktop\Final_Project\FinalProject\bin\Debug\net5.0\ConsoleTables.dll
+C:\Users\Code Academy\Desktop\Final_Project\FinalProject\obj\Debug\net5.0\FinalProject.csprojAssemblyReference.cache
+C:\Users\Code Academy\Desktop\Final_Project\FinalProject\obj\Debug\net5.0\FinalProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Code Academy\Desktop\Final_Project\FinalProject\obj\Debug\net5.0\FinalProject.AssemblyInfoInputs.cache
+C:\Users\Code Academy\Desktop\Final_Project\FinalProject\obj\Debug\net5.0\FinalProject.AssemblyInfo.cs
+C:\Users\Code Academy\Desktop\Final_Project\FinalProject\obj\Debug\net5.0\FinalProject.csproj.CoreCompileInputs.cache
+C:\Users\Code Academy\Desktop\Final_Project\FinalProject\obj\Debug\net5.0\FinalProject.csproj.CopyComplete
+C:\Users\Code Academy\Desktop\Final_Project\FinalProject\obj\Debug\net5.0\FinalProject.dll
+C:\Users\Code Academy\Desktop\Final_Project\FinalProject\obj\Debug\net5.0\ref\FinalProject.dll
+C:\Users\Code Academy\Desktop\Final_Project\FinalProject\obj\Debug\net5.0\FinalProject.pdb
+C:\Users\Code Academy\Desktop\Final_Project\FinalProject\obj\Debug\net5.0\FinalProject.genruntimeconfig.cache
