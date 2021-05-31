@@ -43,16 +43,24 @@ namespace FinalProject.Services
             double BaslangicQiymet = double.Parse(Console.ReadLine());
             Console.WriteLine("Max qiymet daxil edin");
             double SonQiymet = double.Parse(Console.ReadLine());
-            foreach (var item in market.ShowByProductPrice(BaslangicQiymet,SonQiymet))
+            try
             {
-                table.AddRow(item.Name, item.Price, item.Count);
+                foreach (var item in market.ShowByProductPrice(BaslangicQiymet, SonQiymet))
+                {
+                    table.AddRow(item.Name, item.Price, item.Count);
+                }
             }
+            catch (Exception e)
+            {
+
+                Console.WriteLine("Error");
+                Console.WriteLine(e.Message);
+            }
+            
             if (BaslangicQiymet == 0 || SonQiymet == 0)
             {
                 throw new ArgumentException("duzgun qiymet daxil edin");
-            }
-           
-                
+            }               
             table.Write();
             Console.WriteLine();
 
@@ -62,6 +70,7 @@ namespace FinalProject.Services
         public static void ShowProductByNameMenu()
         {
             var table = new ConsoleTable("Ad","Kod");
+            Console.WriteLine("Ad daxil edin");
             string Ad = Console.ReadLine();
             foreach (var item in market.ShowProductByName(Ad))
             {
@@ -105,10 +114,20 @@ namespace FinalProject.Services
             DateTime BaslamaVaxti = DateTime.Parse(str1);
             DateTime BitmeVaxti = DateTime.Parse(str2);
             var table = new ConsoleTable( "Nomresi", "Mebleg", "Zaman");
-            foreach (var item in market.ShowSellByDate(BaslamaVaxti, BitmeVaxti))
+            try
             {
-                table.AddRow(item.Number,item.Cost, item.Date);
+                foreach (var item in market.ShowSellByDate(BaslamaVaxti, BitmeVaxti))
+                {
+                    table.AddRow(item.Number, item.Cost, item.Date);
+                }
             }
+            catch (Exception e)
+            {
+
+                Console.WriteLine("ERROR");
+                Console.WriteLine(e.Message);
+            }
+            
            
             table.Write();
             Console.WriteLine();
@@ -131,10 +150,19 @@ namespace FinalProject.Services
             {
                 throw new NullReferenceException("sonqiymet qiymeti daxil edin");
             }
-            foreach (var item in market.ShowSellByCost(baslaqiymet, sonqiymet))
+            try
             {
-                table.AddRow(item.Cost);
+                foreach (var item in market.ShowSellByCost(baslaqiymet, sonqiymet))
+                {
+                    table.AddRow(item.Cost);
+                }
             }
+            catch (Exception e)
+            {
+
+                Console.WriteLine("ERROR");
+                Console.WriteLine(e.Message);
+            } 
             table.Write();
             Console.WriteLine();
         }
@@ -165,7 +193,16 @@ namespace FinalProject.Services
             {
                 throw new ArgumentOutOfRangeException("menfi ");
             }
-            market.LoadProduct(ad,qiymet,kateqoriya,say);
+            try
+            {
+                market.LoadProduct(ad, qiymet, kateqoriya, say);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Error");
+                Console.WriteLine(e.Message);
+            }
+            
         }
 
         // mehsulun menyusunun deyisdirilmesi methodu
@@ -189,7 +226,16 @@ namespace FinalProject.Services
             {
                 throw new ArgumentOutOfRangeException("sayi duzgun daxil edin");
             }
-            market.ChangeProduct(kod, ad, qiymet,  kateqoriya, say);
+            try
+            {
+                market.ChangeProduct(kod, ad, qiymet, kateqoriya, say);
+            }
+            catch (Exception e)
+            {
+
+                Console.WriteLine("error");
+                Console.WriteLine(e.Message);
+            } 
         }
 
         //mehsulun geri qaytarilmasi
@@ -213,7 +259,16 @@ namespace FinalProject.Services
             }
             Console.WriteLine("Say elave edin");
             int say = int.Parse(Console.ReadLine());
-            market.AddSell(kod, say );
+            try
+            {
+                market.AddSell(kod, say);
+            }
+            catch (Exception e)
+            {
+
+                Console.WriteLine("Error");
+                Console.WriteLine(e.Message);
+            } 
         }
 
         //mehsulun silinmesi methodu
@@ -237,7 +292,16 @@ namespace FinalProject.Services
             {
                 throw new NullReferenceException("say null ola bilmez");
             }
-            market.ReturnProduct(nomre,ad, say);
+            try
+            {
+                market.ReturnProduct(nomre, ad, say);
+            }
+            catch (Exception e)
+            {
+
+                Console.WriteLine("Error");
+                Console.WriteLine(e.Message);
+            } 
             Console.WriteLine("Mehsul silindi...");
         }
 
@@ -282,7 +346,16 @@ namespace FinalProject.Services
             {
                 throw new ArgumentException("duzgun daxil edin");
             }
-            market.DeleteSell(nomre);
+            try
+            {
+                market.DeleteSell(nomre);
+            }
+            catch (Exception e)
+            {
+
+                Console.WriteLine("Error");
+                Console.WriteLine(e.Message);
+            } 
             Console.WriteLine("Satis silindi");
         }
         #endregion

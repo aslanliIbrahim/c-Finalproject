@@ -18,7 +18,7 @@ namespace FinalProject.Data.Entities
     }
     public class Product: BaseEntity
     {
-     private static int count =1111;
+     private static int count =1000;
         public string Name { get; set; }
         public double Price { get; set; }
         public string Category { get; set; }

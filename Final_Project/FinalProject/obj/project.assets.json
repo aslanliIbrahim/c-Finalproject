@@ -671,11 +671,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Code Academy\\Desktop\\Final_Project\\FinalProject\\FinalProject.csproj",
+      "projectUniqueName": "C:\\Users\\Code Academy\\Desktop\\c-Finalproject\\Final_Project\\FinalProject\\FinalProject.csproj",
       "projectName": "FinalProject",
-      "projectPath": "C:\\Users\\Code Academy\\Desktop\\Final_Project\\FinalProject\\FinalProject.csproj",
+      "projectPath": "C:\\Users\\Code Academy\\Desktop\\c-Finalproject\\Final_Project\\FinalProject\\FinalProject.csproj",
       "packagesPath": "C:\\Users\\Code Academy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Code Academy\\Desktop\\Final_Project\\FinalProject\\obj\\",
+      "outputPath": "C:\\Users\\Code Academy\\Desktop\\c-Finalproject\\Final_Project\\FinalProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
